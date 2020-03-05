@@ -1,0 +1,17 @@
+{
+    "name": "ivanboriev/bqb",
+    "description": "Test for BQB",
+    "authors": [
+        {
+            "name": "Ivan Boriev",
+            "email": "ivanboriev@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.11",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": { "Services\\": "services/" }
+    }
+}
